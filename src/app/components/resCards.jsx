@@ -10,19 +10,35 @@ const slides = [
     image: img2,
     title: "Glass Shower Doors: Long-Lasting Beauty and Durability",
     description:
-      "Keep your bathroom stylish and low-maintenance with our premium glass shower doors. Designed to resist mildew and soap scum, our doors maintain their clarity and appeal for years with minimal upkeep.",
-  },
-  {
-    image: img3,
-    title: "Energy-Efficient Window Replacements",
-    description:
-      "Cut your energy bills and boost comfort with our insulated glass window replacements. Featuring Low-E coatings and gas-filled panes, they reduce heat transfer while enhancing home value and quietness.",
+      `At DFW Glass Mart, we understand that the biggest culprits of unattractive shower doors are soap scum buildup and mildew. That’s why we go the extra mile to provide high-quality glass shower doors with a long-lasting seal designed to prevent the growth of mildew and reduce soap scum accumulation.
+
+With our expertly crafted shower doors, maintaining a spotless look is easy. Simply clean with a quality squeegee after each shower to keep your glass looking pristine and beautiful for years to come.
+
+Upgrade your bathroom with durable and low-maintenance glass shower doors from DFW Glass Mart. Contact us today to learn more or to schedule your installation!`,
   },
   {
     image: img4,
+    title: "Energy-Efficient Window Replacements",
+    description:
+      `Upgrading your home’s windows can enhance energy efficiency, reduce noise, and improve indoor comfort. At DFW Glass Mart, we offer high-performance window replacements with modern, insulated glass designed to lower energy bills and increase home value.
+
+Our Energy-Efficient Glass Solutions:
+Double-pane and triple-pane window replacements
+Low-E glass for improved insulation and UV protection
+Argon gas-filled windows to reduce heat transfer
+Noise-reducing residential glass options`,
+  },
+  {
+    image: img3,
     title: "Custom Glass Backsplashes & Cabinet Glass",
     description:
-      "Upgrade your kitchen or bath with custom glass designs that are as durable as they are beautiful. From cabinet inserts to sleek backsplashes, our options offer easy cleaning and modern flair.",
+      `Looking to add a modern touch to your kitchen or bathroom? Our custom glass backsplashes and cabinet glass solutions are perfect for enhancing aesthetics while making cleaning easier.
+
+Custom Glass Options for Your Home:
+Glass cabinet doors for a sleek, contemporary look
+Custom kitchen backsplashes – easy to clean and highly durable
+Frosted, tinted, or patterned glass for privacy & style
+Scratch-resistant and heat-resistant glass materials`,
   },
 ];
 
@@ -34,18 +50,20 @@ const AutoCard = () => {
   {/* Text Section */}
   <div className="w-full md:w-1/2 flex flex-col justify-center pr-0 md:pr-12 space-y-6">
     <h2 className="text-3xl font-bold border-t-2 border-primary pt-4">
-      Residential Glass Services Made Simple
+      Great Deals on Flat Glass for Your Home Glass Repair & Replacement
     </h2>
     <p>
-      DFW Glass Mart offers expert glass solutions for your home—from mirror repairs to custom-cut installations. We deliver clean, efficient work designed to elevate your space.
-    </p>
+At DFW Glass Mart, we specialize in all types of residential glass services, delivering top-tier workmanship that enhances the beauty and functionality of your home Glass Repair & Replacement.    </p>
     <ul className="list-disc pl-5 space-y-1">
-      <li>Mirror and glass replacements</li>
-      <li>Storm window repairs</li>
-      <li>Tailored fittings for any room</li>
+      <li>Mirror Replacement in Dallas: From repairing weathered storm windows to replacing and customizing mirrors, we handle it all.</li>
+      <li>Custom Glass Fittings: Perfectly tailored solutions for your home’s unique needs.</li>
+      <li>Mirror Repairs and Finishes: Restore your mirrors to like-new condition with our expert services.</li>
+      <li>Storm Window Repairs and Replacements: Durable glass solutions to withstand harsh weather conditions.</li>
     </ul>
     <p className="font-semibold">
-      Call today for a fast, free quote!
+      New glass can transform the appearance of your home, both inside and out. Trust DFW Glass Mart to bring your vision to life with high-quality, reliable residential glass services. Contact us today for a free estimate!
+
+
     </p>
   </div>
 

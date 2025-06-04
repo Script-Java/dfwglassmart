@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import logo from "../assets/logo-white.svg";
+import logo from "../assets/logo-black.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { MdOutlineMenu } from "react-icons/md";
@@ -11,7 +11,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="w-full z-50 bg-black lg:bg-transparent">
+    <header className="w-full z-50 bg-white shadow-md sticky top-0">
       <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3">
         {/* Logo */}
         <Link href="/">
@@ -19,7 +19,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Nav */}
-        <ul className="hidden lg:flex items-center gap-4">
+        <ul className="hidden text-black lg:flex items-center gap-4">
           <li><Link className="btn btn-ghost" href="/">Home</Link></li>
           <li><Link className="btn btn-ghost" href="/auto">Auto</Link></li>
           <li><Link className="btn btn-ghost" href="/residential">Residential</Link></li>
@@ -29,16 +29,16 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Toggle Button */}
-        <button onClick={toggleMenu} className="lg:hidden btn btn-ghost">
-          {isOpen ? <IoMdClose size={24} /> : <MdOutlineMenu size={24} />}
+        <button onClick={toggleMenu} className="lg:hidden btn btn-ghost z-50">
+          {isOpen ? <IoMdClose size={24} className="text-black" /> : <MdOutlineMenu size={24} className="text-black" />}
         </button>
       </nav>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-black text-white border-t border-base-300 shadow-md">
-          <ul className="flex flex-col p-4 space-y-2 items-center">
-            {[
+        <div className="fixed top-0 left-0 w-full h-full bg-white text-black z-40 flex flex-col justify-center items-center p-6">
+          <ul className="flex flex-col gap-6 items-center w-full">
+            {[ 
               { label: "Home", href: "/" },
               { label: "Auto", href: "/auto" },
               { label: "Residential", href: "/residential" },
@@ -46,7 +46,7 @@ const Navbar = () => {
               { label: "(972) 900-3117", href: "tel:+19729003117", className: "btn-outline" },
               { label: "Free Quote", href: "/quote", className: "btn-primary" },
             ].map(({ label, href, className = "btn-ghost" }, i) => (
-              <li key={i} className={`btn w-full ${className}`}>
+              <li key={i} className={`btn w-full text-center ${className}`}>
                 <Link href={href} onClick={() => setIsOpen(false)}>
                   {label}
                 </Link>

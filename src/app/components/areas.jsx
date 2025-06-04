@@ -1,28 +1,39 @@
+import img1 from "../assets/img/badge.png";
+import Image from "next/image";
+
 export default function Areas() {
   return (
-    <section className="bg-primary my-10 text-white py-16">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+        <section className="bg-primary my-10 text-white py-16">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-stretch">
         {/* Left Column */}
-        <div>
-          <h2 className="text-3xl font-bold mb-4">Trusted Services in Dallas</h2>
-          <div className="w-16 h-[2px] bg-white mb-6"></div>
-          <p className="text-lg leading-relaxed">
-            At DFW Glass Mart, we provide top-tier auto and residential glass repair services throughout Dallas and nearby cities. Backed by our 100% Workmanship Guarantee, we stand by every job we complete.
-          </p>
-          <p className="text-lg leading-relaxed mt-4">
-            Our mobile technicians deliver fast, efficient service using the best materials available. From emergency replacements to routine repairs, we ensure minimal disruption and maximum quality. Get your free quote today!
-          </p>
+        <div className="flex flex-col justify-between">
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
+            <div className="w-16 h-[2px] bg-white mb-6"></div>
+            <p className="text-lg leading-relaxed">
+              At DFW Glass Mart, our experienced professionals are dedicated to
+              providing top-quality auto glass repair and replacement services
+              in Dallas. We use the highest-grade glass and state-of-the-art
+              tools to ensure every job is completed with precision and to our
+              customers' full satisfaction.
+            </p>
+          </div>
+          <div className="mt-6">
+            <Image src={img1} alt="badge" className="w-md h-auto" />
+          </div>
         </div>
 
         {/* Right Column */}
-        <div>
-          <h2 className="text-3xl font-bold mb-4">Areas We Serve</h2>
-          <div className="w-16 h-[2px] bg-white mb-6"></div>
-          <div className="grid grid-cols-3 gap-4 text-left">
+        <div className="flex flex-col justify-between">
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Areas We Serve</h2>
+            <div className="w-16 h-[2px] bg-white mb-6"></div>
+          </div>
+          <div className="grid grid-cols-3 gap-4 text-left mt-auto">
             {[
               "Dallas", "Plano", "Frisco", "McKinney", "Celina", "Prosper", "The Colony", "Allen",
               "Lewisville", "Little Elm", "Coppell", "Flower Mound", "Grapevine", "South Lake", "Addison", "Farmers Branch",
-              "Richardson", "Garland", "Sachse", "Wylie", "Rockwall", "Mesquite", "Highland Park", "University Park",
+              "Richardson", "Garland", "Sachse", "Wylie", "Rock Wall", "Mesquite", "Highland Park", "University Park",
               "Irving", "Duncanville", "Desoto", "Lancaster", "Carrollton", "Rowlett", "Cedar Hill", "Princeton",
             ].map((city, i) => (
               <div key={i} className="flex items-center space-x-2">
