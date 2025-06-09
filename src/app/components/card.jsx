@@ -235,7 +235,7 @@ const Card = () => {
           Our services extend beyond windshields to include side windows, rear windows, and mirrors, offering a comprehensive solution for any auto glass issue. We also specialize in mobile auto glass repair, bringing our services directly to you, whether you’re at home, at work, or on the go, for ultimate convenience.
         </p>
         <div className="mt-auto">
-          <Link href="/services/auto-glass" className="btn btn-primary w-full">Learn More</Link>
+          <Link href="/auto" className="btn btn-primary w-full">Learn More</Link>
         </div>
       </div>
 
@@ -253,7 +253,7 @@ const Card = () => {
           We understand that each home is different, which is why we offer tailored solutions to match your specific needs and preferences. From energy-efficient windows that help lower your utility bills to tempered glass for added safety, we offer a variety of options that enhance both the aesthetic appeal and functionality of your home.
         </p>
         <div className="mt-auto">
-          <Link href="/services/residential-glass" className="btn btn-primary w-full">Learn More</Link>
+          <Link href="/residential" className="btn btn-primary w-full">Learn More</Link>
         </div>
       </div>
 
@@ -271,14 +271,14 @@ const Card = () => {
           Whether it’s cutting glass to exact specifications, replacing windshields with OEM-grade materials, or installing custom residential glass solutions, our tools and tech guarantee exceptional results every time. Trust DFW Glass Mart for fast, reliable, and professional glass repair services backed by innovation and expertise!
         </p>
         <div className="mt-auto">
-          <Link href="/services/tools-tech" className="btn btn-primary w-full">Learn More</Link>
+          <Link href="/tools" className="btn btn-primary w-full">Learn More</Link>
         </div>
       </div>
     </div>
 
     {/* Bottom CTA Button */}
     <div className="mt-12">
-      <Link href="/care-guide" className="btn bg-primary text-white hover:bg-blue-700">
+      <Link href="/quote" className="btn bg-primary text-white hover:bg-blue-700">
         HOW TO CARE FOR A NEWLY REPLACED WINDSHIELD
       </Link>
     </div>

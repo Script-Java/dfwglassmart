@@ -133,7 +133,7 @@ At DFW Glass Mart, we specialize in all types of residential glass services, del
                 <h2 className="text-2xl md:text-3xl font-bold text-primary">
                   {slide.title}
                 </h2>
-                <p className="text-md md:text-lg text-white">
+                <p className="text-md md:text-lg text-black">
                   {slide.description}
                 </p>
               </div>
