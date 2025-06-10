@@ -49,42 +49,38 @@ const Card = () => {
         </div>
       </div>
 
-      {/* Workmanship Section */}
-      <div className="w-full py-20 px-4">
-        <div className="max-w-7xl mx-auto flex text-black flex-col md:flex-row items-center justify-between gap-10">
-          <div className="md:w-1/2 space-y-4">
-            <h2 className="text-primary font-bold text-3xl md:text-4xl">
-              100% Workmanship Guarantee: Quality You Can Trust
-            </h2>
-            <p className="text-lg">
-              At DFW Glass Mart, we take pride in providing top-quality auto and
-              residential glass repair and replacement services in Dallas and
-              surrounding areas. Backed by our 100% Workmanship Guarantee, you
-              can trust us to deliver exceptional results every time.
-            </p>
-            <p className="text-lg">
-              Whether you need a <strong>fast windshield replacement</strong>, a
-              reliable car window repair, or{" "}
-              <strong>custom home glass solutions</strong>, we’ve got you
-              covered. Our technicians are highly skilled and committed to
-              providing prompt, dependable service.
-            </p>
-            <p className="text-lg">
-              We understand the urgency of emergency glass replacement needs,
-              which is why we prioritize fast and dependable solutions for our
-              valued customers. At DFW Glass Mart, your satisfaction is our top
-              priority!
-            </p>
-          </div>
-          <div className="md:w-1/2 rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src={img5}
-              alt="Workmanship Guarantee"
-              className="object-cover w-full h-auto"
-            />
-          </div>
-        </div>
+{/* Workmanship Section */}
+<div className="w-full py-20 px-4">
+  <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-center gap-12 text-black">
+    {/* Text Content */}
+    <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
+      <h2 className="text-primary font-bold text-3xl md:text-4xl leading-snug">
+        100% Workmanship Guarantee: Quality You Can Trust
+      </h2>
+      <p className="text-lg">
+        At DFW Glass Mart, we take pride in providing top-quality auto and residential glass repair and replacement services in Dallas and surrounding areas. Backed by our 100% Workmanship Guarantee, you can trust us to deliver exceptional results every time.
+      </p>
+      <p className="text-lg">
+        Whether you need a <strong>fast windshield replacement</strong>, a reliable car window repair, or <strong>custom home glass solutions</strong>, we’ve got you covered. Our technicians are highly skilled and committed to providing prompt, dependable service.
+      </p>
+      <p className="text-lg">
+        We understand the urgency of emergency glass replacement needs, which is why we prioritize fast and dependable solutions for our valued customers. At DFW Glass Mart, your satisfaction is our top priority!
+      </p>
+    </div>
+
+    {/* Image */}
+    <div className="w-full md:w-1/2 flex justify-center">
+      <div className="w-80 md:w-96 rounded-xl overflow-hidden shadow-lg">
+        <Image
+          src={img5}
+          alt="Workmanship Guarantee"
+          className="object-cover w-full h-auto"
+        />
       </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="w-full flex flex-col md:flex-row items-stretch">
         {/* Image Section */}
@@ -124,57 +120,44 @@ const Card = () => {
         </div>
       </div>
 
-      <section className="py-16 bg-base-100 text-center px-4 md:px-10">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl text-black font-semibold mb-2">What Are We Good At?</h2>
-        <p className="text-base-content mb-10">
-          At DFW Glass Mart, we specialize in <span className="font-medium">auto glass repair</span> and 
-          <span className="font-medium"> residential glass services</span>. Our advanced tools and technology ensure 
-          perfect glass repairs and replacements every time.
-        </p>
+     <section className="py-16 bg-base-100 text-center px-4 md:px-10">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-4xl text-black font-semibold mb-2">What Are We Good At?</h2>
+    <p className="text-base-content mb-10">
+      At DFW Glass Mart, we specialize in <span className="font-medium">auto glass repair</span> and
+      <span className="font-medium"> residential glass services</span>. Our advanced tools and technology ensure
+      perfect glass repairs and replacements every time.
+    </p>
 
-        <div className="grid gap-10 md:grid-cols-3">
-          {/* Card 1 */}
-          <div className="flex flex-col items-center">
-            <div className="relative w-40 h-40 mb-4">
-              <Image src={img1} alt="Auto Glass Repairs" fill className="rounded shadow-md" />
+    <div className="grid gap-10 md:grid-cols-3">
+      {[img1, img2, img3].map((imgSrc, index) => (
+        <div key={index} className="flex flex-col items-center group">
+          <div className="relative w-40 h-40 mb-4">
+            <div className="absolute inset-0 transform rotate-45 bg-gray-200 transition-transform duration-500 ease-in-out group-hover:rotate-0 z-0" />
+            <div className="relative w-full h-full z-10 overflow-hidden rounded shadow-md">
+              <Image src={imgSrc} alt={`Card ${index + 1}`} fill className="object-cover" />
             </div>
-            <h3 className="text-xl text-black font-semibold mb-2">Fast and Reliable Auto Glass Repairs</h3>
-            <p className="text-sm text-base-content">
-              For cracked windshields or broken car windows, we offer fast, reliable, and high-quality repairs. 
-              Additionally, we ensure minimal downtime so you can get back on the road quickly.
-            </p>
           </div>
-
-          {/* Card 2 */}
-          <div className="flex flex-col items-center">
-            <div className="relative w-40 h-40 mb-4">
-              <Image src={img2} alt="Custom Glass Solutions" fill className="rounded shadow-md" />
-            </div>
-            <h3 className="text-xl text-black font-semibold mb-2">Custom Glass Solutions for Your Home</h3>
-            <p className="text-sm text-base-content">
-              We specialize in custom glass solutions for windows, shower doors, mirrors, and table tops. 
-              Our goal is to enhance your home’s aesthetics and functionality with high-quality glass products.
-            </p>
-          </div>
-
-          {/* Card 3 */}
-          <div className="flex flex-col items-center">
-            <div className="relative w-40 h-40 mb-4">
-              <Image src={img3} alt="Why Trust DFW Glass Mart" fill className="rounded shadow-md" />
-            </div>
-            <h3 className="text-xl text-black font-semibold mb-2">Why Trust DFW Glass Mart?</h3>
-            <p className="text-sm text-base-content">
-              By combining advanced technology with expert craftsmanship, we deliver exceptional results for both 
-              auto and residential glass repairs. Trust us to complete your glass repair efficiently and to your 
-              complete satisfaction.
-            </p>
-          </div>
+          <h3 className="text-xl text-black my-4 font-semibold mb-2">
+            {index === 0 && 'Fast and Reliable Auto Glass Repairs'}
+            {index === 1 && 'Custom Glass Solutions for Your Home'}
+            {index === 2 && 'Why Trust DFW Glass Mart?'}
+          </h3>
+          <p className="text-sm text-base-content">
+            {index === 0 &&
+              'For cracked windshields or broken car windows, we offer fast, reliable, and high-quality repairs. Additionally, we ensure minimal downtime so you can get back on the road quickly.'}
+            {index === 1 &&
+              'We specialize in custom glass solutions for windows, shower doors, mirrors, and table tops. Our goal is to enhance your home’s aesthetics and functionality with high-quality glass products.'}
+            {index === 2 &&
+              'By combining advanced technology with expert craftsmanship, we deliver exceptional results for both auto and residential glass repairs. Trust us to complete your glass repair efficiently and to your complete satisfaction.'}
+          </p>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
 
-        <section className="py-20 bg-base-100">
+        <section className="py-4 bg-base-100">
       <div className="max-w-7xl mx-auto px-4 md:px-10 grid md:grid-cols-2 gap-10 items-center">
         
         {/* Text Content */}
@@ -211,7 +194,7 @@ const Card = () => {
       </div>
     </section>
 
-<section className="bg-base-100 py-20 px-6">
+<section className="bg-base-100 py-10 px-6">
   <div className="max-w-7xl mx-auto text-center">
     {/* Heading */}
     <h2 className="text-3xl text-black font-semibold mb-4">
@@ -285,8 +268,8 @@ const Card = () => {
   </div>
 </section>
 
-<section className="bg-base-100 py-20 px-6">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+<section className="bg-base-100 py-10 px-6">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Side - Title and Image */}
         <div>
           <h2 className="text-3xl text-black font-semibold mb-4 relative">
@@ -319,7 +302,7 @@ const Card = () => {
       </div>
     </section>
 
-    <section className="bg-base-100 py-20 px-6">
+    <section className="bg-base-100 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left Column: Text */}

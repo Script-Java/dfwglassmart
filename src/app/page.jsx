@@ -9,6 +9,7 @@ import bgImage from "./assets/img/12.jpg";
 import Link from "next/link";
 import Triple from "./components/triple";
 import Satisfaction from "./components/satisfaction";
+import Repair from "./components/repairHero";
 import Areas from "./components/areas";
 
 import dynamic from "next/dynamic";
@@ -21,6 +22,7 @@ export default function Home() {
       <Slider />
       <Card />
       <TrustindexWidget />
+      <Repair></Repair>
       <Areas></Areas>
       <Footer />
     </div>

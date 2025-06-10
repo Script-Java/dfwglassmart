@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ResSlider from "../components/resSlider";
 import ResCards from "../components/resCards";
-import Areas from "../components/areas";
+import Areas from "../components/repairHero";
 
 export default function AutoPage() {
   return (
