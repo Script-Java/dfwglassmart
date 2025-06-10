@@ -9,7 +9,7 @@ export default function ToolsPage() {
       <Navbar />
       <ToolsSlider />
       <ToolsCard />
-      <div className="h-1 w-2/6 bg-primary my-4 mx-auto">
+      <div className="h-1 w-2/6 bg-primary my-12 md:my-8 mx-auto">
 
       </div>
       <Footer />
