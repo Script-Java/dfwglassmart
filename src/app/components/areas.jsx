@@ -36,7 +36,7 @@ export default function Areas() {
               "Irving", "Duncanville", "Desoto", "Lancaster", "Carrollton", "Rowlett", "Cedar Hill", "Princeton",
             ].map((city, i) => (
               <div key={i} className="flex items-center space-x-2">
-                <span className="text-lg">→</span>
+                <span className="text-lg text-black">→</span>
                 <span>{city}</span>
               </div>
             ))}

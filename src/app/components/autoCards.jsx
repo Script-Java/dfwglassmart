@@ -41,7 +41,7 @@ const AutoCard = () => {
             src={img3}
             alt="Glass Maintenance Services"
             fill
-            className="object-cover"
+            className="object-cover object-bottom"
           />
         </div>
       </div>
@@ -108,7 +108,7 @@ const AutoCard = () => {
         />
       </div>
     </div>
-    <section className="bg-base-100 py-20 px-6 space-y-24">
+    <section className="bg-base-100 px-6 space-y-24">
       {/* First Block: Windshield Repair */}
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Image Left */}

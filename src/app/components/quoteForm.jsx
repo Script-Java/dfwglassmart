@@ -127,6 +127,7 @@ export default function QuoteForm() {
             <Label text="Car Body Style" />
             <select name="carBody" onChange={handleChange} className="select select-bordered w-full">
               <option disabled defaultValue={'None'} value="">--Select--</option>
+              <option disabled selected value="">--Select--</option>
               <option>4 Door Sedan</option>
               <option>4 Door Hatchback</option>
               <option>SUV</option>
@@ -134,7 +135,8 @@ export default function QuoteForm() {
               <option>2 Door Convertible</option>
               <option>2 Door Hatchback</option>
               <option>4 Door Truck</option>
-              <option>2 Door Truck</option>
+              <option>4 Door Crew Cab Truck</option>
+              <option>4 Door Extended Cab Truck</option>
               <option>2 Door Extended Cab Truck</option>
               <option>2 Door Single Cab Truck</option>
               <option>Van</option>
@@ -153,7 +155,7 @@ export default function QuoteForm() {
           <strong>ATTENTION DEAR CUSTOMER:</strong> For windshield and backglass replacements on 2016 and newer vehicles, the VIN is required to ensure the correct fit and specifications.
         </p>
 
-        <button type="submit" className="btn btn-primary w-full">Submit</button>
+        <button type="submit" className="btn text-white hover:bg-primary w-full">Submit</button>
         {status && <p className="text-sm pt-2 text-info">{status}</p>}
       </form>
     </div>

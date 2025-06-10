@@ -13,11 +13,11 @@ const Footer = () => {
         <div>
           <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
           <ul className="flex flex-wrap justify-center gap-4">
-            <li><Link href="/" className="hover:underline">Home</Link></li>
-            <li><Link href="/auto" className="hover:underline">Auto Glass</Link></li>
-            <li><Link href="/residential" className="hover:underline">Residential Glass</Link></li>
-            <li><Link href="/tools" className="hover:underline">Tools</Link></li>
-            <li><Link href="/quote" className="hover:underline">Quote</Link></li>
+            <li><Link href="/" className="hover:underline hover:text-primary">Home</Link></li>
+            <li><Link href="/auto" className="hover:underline hover:text-primary">Auto Glass</Link></li>
+            <li><Link href="/residential" className="hover:underline hover:text-primary">Residential Glass</Link></li>
+            <li><Link href="/tools" className="hover:underline hover:text-primary">Tools</Link></li>
+            <li><Link href="/quote" className="hover:underline hover:text-primary">Quote</Link></li>
           </ul>
         </div>
 
@@ -27,11 +27,11 @@ const Footer = () => {
           <ul className="flex flex-wrap justify-center gap-6">
             <li className="flex items-center gap-2">
               <FaPhone />
-              <Link href="tel:9729003117" className="hover:underline">(972) 900-3117</Link>
+              <Link href="tel:9729003117" className="hover:underline hover:text-primary">(972) 900-3117</Link>
             </li>
             <li className="flex items-center gap-2">
               <IoIosMail />
-              <Link href="mailto:info@dfwglassmart.com" className="hover:underline">info@dfwglassmart.com</Link>
+              <Link href="mailto:info@dfwglassmart.com" className="hover:underline hover:text-primary">info@dfwglassmart.com</Link>
             </li>
             <li className="flex items-center gap-2">
               <FaLocationArrow />

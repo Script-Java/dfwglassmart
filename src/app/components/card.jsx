@@ -26,7 +26,7 @@ const Card = () => {
   return (
     <section className="w-full">
       {/* Hero Section */}
-      <div className="w-full bg-primary text-white py-20 px-4">
+      <div className="w-full bg-primary text-white p-10 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Expert Glass Repair & Replacement Services in
@@ -50,10 +50,10 @@ const Card = () => {
       </div>
 
 {/* Workmanship Section */}
-<div className="w-full py-20 px-4">
-  <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-center gap-12 text-black">
+<div className="w-full py-20">
+  <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-center gap-20 text-black">
     {/* Text Content */}
-    <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
+    <div className="w-full text-center max-w-2xl md:text-left space-y-6">
       <h2 className="text-primary font-bold text-3xl md:text-4xl leading-snug">
         100% Workmanship Guarantee: Quality You Can Trust
       </h2>
@@ -69,7 +69,7 @@ const Card = () => {
     </div>
 
     {/* Image */}
-    <div className="w-full md:w-1/2 flex justify-center">
+    <div className="">
       <div className="w-80 md:w-96 rounded-xl overflow-hidden shadow-lg">
         <Image
           src={img5}

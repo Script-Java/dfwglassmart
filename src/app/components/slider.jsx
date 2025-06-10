@@ -45,7 +45,7 @@ const Slider = () => {
 At DFW Glass Mart, we are a full-service auto glass repair company dedicated to providing top-quality solutions. As your trusted source for auto glass repair and windshield replacement services in Dallas, we pride ourselves on delivering exceptional service. We offer a complete range of options, including after-market, premium, and OEM replacements, to meet all your vehicle’s needs. Additionally, our team uses the latest tools and techniques to ensure every job is done right the first time. Whether you need a quick repair or a complete windshield replacement, DFW Glass Mart is here to help. Contact us today for fast, reliable, and affordable auto glass services!
 
         </p>
-        <Link className="btn btn-primary p-4 " href={'/quote'}>GET A QUOTE TODAY</Link>
+        <Link className="btn btn-primary p-4 mt-4" href={'/quote'}>GET A QUOTE TODAY</Link>
       </div>
     </div>
   );
