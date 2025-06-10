@@ -107,7 +107,7 @@ export default function QuoteForm() {
 
         <div>
           <Label text="Glass Repair/Replacement Needs" required={true} />
-          <textarea name="description" onChange={handleChange} className="textarea textarea-bordered w-full" required />
+          <textarea name="description" onChange={handleChange} placeholder='In detail please explain your glass repair/replacement needs.' className="textarea textarea-bordered w-full" required />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
