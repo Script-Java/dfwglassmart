@@ -21,7 +21,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative py-[450px] md:py-[10px] w-full h-screen overflow-hidden">
       {/* Background Images with fade */}
       {slides.map((img, i) => (
         <Image

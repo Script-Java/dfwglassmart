@@ -12,7 +12,7 @@ export default function AutoPage() {
       <Navbar></Navbar>
       <AutoSlider></AutoSlider>
       <AutoCard></AutoCard>
-      <section className="relative my-20 w-full h-[500px] p-10 flex items-center justify-center text-white">
+      <section className="relative my-20 w-full h-[900px] md:h-[500px] p-10 flex items-center justify-center text-white">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <Image

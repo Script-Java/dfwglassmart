@@ -261,7 +261,7 @@ const Card = () => {
 
     {/* Bottom CTA Button */}
     <div className="mt-12">
-      <Link href="/quote" className="btn bg-primary text-white hover:bg-blue-700">
+      <Link href="/quote" className="btn bg-primary p-8 md:p-0 text-white hover:bg-blue-700">
         HOW TO CARE FOR A NEWLY REPLACED WINDSHIELD
       </Link>
     </div>
@@ -269,38 +269,39 @@ const Card = () => {
 </section>
 
 <section className="bg-base-100 py-10 px-6">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Side - Title and Image */}
-        <div>
-          <h2 className="text-3xl text-black font-semibold mb-4 relative">
-            <span className="absolute left-0 -top-3 w-10 h-1 bg-primary"></span>
-            Why Choose DFW Glass Mart?
-          </h2>
-          <p className="text-base-content mb-6">
-            When it comes to <span className="font-medium">auto and residential glass repair and replacement</span>, 
-            DFW Glass Mart is the trusted choice for customers in Dallas. Here’s why:
-          </p>
-          <div className="relative w-full h-64 rounded shadow-md overflow-hidden">
-            <Image
-              src={img14}
-              alt="Why DFW Glass Mart"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-
-        {/* Right Side - List of Features */}
-        <ul className="space-y-4">
-          {features.map((feature, idx) => (
-            <li key={idx} className="flex items-start text-base-content">
-              <FaCheckCircle className="text-primary mt-1 mr-3" />
-              <span className="text-sm">{feature}</span>
-            </li>
-          ))}
-        </ul>
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    {/* Left Side - Title and Image */}
+    <div>
+      <h2 className="text-3xl text-black font-semibold mb-4 relative">
+        <span className="absolute left-0 -top-3 w-10 h-1 bg-primary"></span>
+        Why Choose DFW Glass Mart?
+      </h2>
+      <p className="text-base-content mb-6">
+        When it comes to <span className="font-medium">auto and residential glass repair and replacement</span>, 
+        DFW Glass Mart is the trusted choice for customers in Dallas. Here’s why:
+      </p>
+      <div className="relative w-full h-64 rounded shadow-md overflow-hidden">
+        <Image
+          src={img14}
+          alt="Why DFW Glass Mart"
+          fill
+          className="object-cover"
+        />
       </div>
-    </section>
+    </div>
+
+    {/* Right Side - List of Features */}
+    <ul className="space-y-4">
+      {features.map((feature, idx) => (
+        <li key={idx} className="flex items-start text-base-content">
+          <FaCheckCircle className="text-primary w-5 h-5 flex-shrink-0 mt-1 mr-3" />
+          <span className="text-sm leading-5">{feature}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
 
     <section className="bg-base-100 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
