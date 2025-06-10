@@ -36,7 +36,7 @@ export default function QuoteForm() {
   );
 
   return (
-    <div className="max-w-7xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg">
+    <div className="max-w-5xl md:max-w-7xl mx-auto p-6 bg-base-100 rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-6">Request a Glass Service Quote</h2>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>

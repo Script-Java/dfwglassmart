@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "gensitemap": "node scripts/build-sitemap.js"
-    
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "15.3.2",
     "nodemailer": "^7.0.3",
     "react": "^19.0.0",
