@@ -16,7 +16,7 @@ export default function Areas() {
               customers' full satisfaction.
               <br />
               <br />
-              At DFW Glass Mart, we take pride in delivering expert auto and residential glass services across Texas.
+              At DFW Glass Mart, we take pride in delivering expert auto and residential glass services across Dallas and surrounding area.
 
             </p>
           </div>

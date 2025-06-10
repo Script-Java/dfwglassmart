@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gensitemap": "node scripts/build-sitemap.js"
+    
   },
   "dependencies": {
     "next": "15.3.2",

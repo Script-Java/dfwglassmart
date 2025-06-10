@@ -64,7 +64,7 @@ const ToolsCard = () => {
           <Image src={img4} alt="Residential glass view" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
         </div>
 
-        <div className="relative w-full aspect-[4/3] lg:h-[600px]">
+        <div className="relative hidden md:block w-full aspect-[4/3] lg:h-[600px]">
           <Image src={img5} alt="Rear window view" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
         </div>
 
@@ -84,6 +84,9 @@ const ToolsCard = () => {
               Trust DFW Glass Mart for residential glass services that blend quality, style, and function. Schedule your consultation with our specialists today.
             </p>
           </div>
+        </div>
+         <div className="relative block md:hidden w-full aspect-[4/3] lg:h-[600px]">
+          <Image src={img5} alt="Rear window view" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
         </div>
       </section>
     </section>

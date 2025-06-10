@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block private or duplicate areas (adjust as needed)
+Disallow: /admin
+Disallow: /api/
+
+# Point crawlers to your sitemap
+Sitemap: https://dfwglassmart.com/sitemap.xml
