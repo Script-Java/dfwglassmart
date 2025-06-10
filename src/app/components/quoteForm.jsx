@@ -106,25 +106,25 @@ export default function QuoteForm() {
         </div>
 
         <div>
-          <Label text="Glass Repair/Replacement Needs" required={true} />
-          <textarea name="description" onChange={handleChange} placeholder='In detail please explain your glass repair/replacement needs.' className="textarea textarea-bordered w-full" required />
+          <Label text="Please describe in detail your glass repair/replacement needs" required={true} />
+          <textarea name="description" onChange={handleChange} className="textarea textarea-bordered w-full" required />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <Label text="Car Year" />
+            <Label text="Car Year (if applicable)" />
             <input name="carYear" onChange={handleChange} type="text" className="input input-bordered w-full" />
           </div>
           <div>
-            <Label text="Car Make" />
+            <Label text="Car Make (if applicable)" />
             <input name="carMake" onChange={handleChange} type="text" className="input input-bordered w-full" />
           </div>
           <div>
-            <Label text="Car Model" />
+            <Label text="Car Model (if applicable)" />
             <input name="carModel" onChange={handleChange} type="text" className="input input-bordered w-full" />
           </div>
           <div>
-            <Label text="Car Body Style" />
+            <Label text="Car Body Style (if applicable)" />
             <select name="carBody" onChange={handleChange} className="select select-bordered w-full">
               <option disabled defaultValue={'None'} value="">--Select--</option>
               <option disabled selected value="">--Select--</option>
@@ -134,7 +134,6 @@ export default function QuoteForm() {
               <option>2 Door Coupe</option>
               <option>2 Door Convertible</option>
               <option>2 Door Hatchback</option>
-              <option>4 Door Truck</option>
               <option>4 Door Crew Cab Truck</option>
               <option>4 Door Extended Cab Truck</option>
               <option>2 Door Extended Cab Truck</option>

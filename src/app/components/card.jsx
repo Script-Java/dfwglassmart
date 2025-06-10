@@ -261,7 +261,7 @@ const Card = () => {
 
     {/* Bottom CTA Button */}
     <div className="mt-12">
-      <Link href="/quote" className="btn bg-primary p-8 md:p-0 text-white hover:bg-blue-700">
+      <Link href="/quote" className="btn bg-primary p-8 md:p-4 text-white hover:bg-blue-700">
         HOW TO CARE FOR A NEWLY REPLACED WINDSHIELD
       </Link>
     </div>
