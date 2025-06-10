@@ -30,10 +30,10 @@ const ToolsCard = () => {
               We handle everything from basic repairs to complex replacements with care and accuracy. Our expert team restores your vehicle's safety, clarity, and aesthetics—so you’re back on the road worry-free.
             </p>
             <ul className="space-y-3 text-base-content text-lg pt-2">
-              <li><span className="text-primary font-bold mr-2">1</span> ADAS-ready calibration tools for modern vehicles</li>
-              <li><span className="text-primary font-bold mr-2">2</span> Premium sealants and manufacturer-grade glass</li>
-              <li><span className="text-primary font-bold mr-2">3</span> Fully mobile service at your convenience</li>
-              <li><span className="text-primary font-bold mr-2">4</span> Guaranteed lifetime craftsmanship</li>
+              <li><span className="text-primary font-bold mr-2">1-</span> ADAS-ready calibration tools for modern vehicles</li>
+              <li><span className="text-primary font-bold mr-2">2-</span> Premium sealants and manufacturer-grade glass</li>
+              <li><span className="text-primary font-bold mr-2">3-</span> Fully mobile service at your convenience</li>
+              <li><span className="text-primary font-bold mr-2">4-</span> Guaranteed lifetime craftsmanship</li>
             </ul>
           </div>
         </div>
