@@ -42,11 +42,11 @@ const Navbar = () => {
           </ul>
 
           {/* Hamburger Button */}
-          <button className="btn btn-ghost hover:bg-primary hover:text-black z-20" onClick={toggleMenu}>
+          <button className="btn btn-ghost  hover:bg-primary hover:text-black z-20" onClick={toggleMenu}>
             {isOpen ? (
-              <MdClose className="text-2xl text-white" />
+              <MdClose className="text-3xl text-white" />
             ) : (
-              <MdOutlineMenu className="text-2xl text-black" />
+              <MdOutlineMenu className="text-3xl text-black" />
             )}
           </button>
         </div>
