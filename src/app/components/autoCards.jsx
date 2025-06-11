@@ -158,8 +158,8 @@ const AutoCard = () => {
         </div>
 
         {/* Image Right */}
-        <div className="relative w-full h-64 md:h-96 rounded shadow overflow-hidden">
-          <Image src={img6} alt="Commercial Glass" fill className="object-cover object-center" />
+        <div className="relative w-full h-[550px] md:h-[700px] rounded shadow overflow-hidden">
+          <Image src={img6} alt="Commercial Glass" fill className="object-cover" />
         </div>
       </div>
     </section>
