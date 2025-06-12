@@ -3,24 +3,27 @@ export default function Areas() {
   return (
     <section className="bg-primary text-white py-16">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-stretch">
-        {/* Left Column */}
-        <div className="flex flex-col justify-start">
-          <div>
-            <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
-            <div className="w-16 h-[2px] bg-white mb-6"></div>
-            <p className="text-lg leading-relaxed">
-              At DFW Glass Mart, our experienced professionals are dedicated to
-              providing top-quality auto glass repair and replacement services
-              in Dallas. We use the highest-grade glass and state-of-the-art
-              tools to ensure every job is completed with precision and to our
-              customers' full satisfaction.
-              <br />
-              <br />
-              At DFW Glass Mart, we take pride in delivering expert auto and residential glass services across Dallas and surrounding area.
+{/* Left Column */}
+<div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-4 w-full">
+  <div className="text-center md:text-left">
+    <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
+    <div className="w-16 h-[2px] bg-white mb-6 mx-auto md:mx-0"></div>
+    <p className="text-lg leading-relaxed">
+      At DFW Glass Mart, our experienced professionals are dedicated to
+      providing top-quality auto glass repair and replacement services
+      in Dallas. We use the highest-grade glass and state-of-the-art
+      tools to ensure every job is completed with precision and to our
+      customers' full satisfaction.
+      <br />
+      <br />
+      At DFW Glass Mart, we take pride in delivering expert auto and residential glass services across Dallas and surrounding area.
+    </p>
+  </div>
 
-            </p>
-          </div>
-        </div>
+  {/* Border: bottom on mobile, right on desktop */}
+  <div className="bg-white w-full h-[2px] md:w-2 md:h-full"></div>
+</div>
+
 
         {/* Right Column */}
         <div className="flex flex-col justify-between">
