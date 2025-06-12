@@ -4,7 +4,7 @@ export default function Areas() {
     <section className="bg-primary text-white py-16">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-stretch">
 {/* Left Column */}
-<div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-4 w-full">
+<div className="flex flex-col md:flex-row items-center md:items-center justify-center gap-4 w-full">
   <div className="text-center md:text-left">
     <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
     <div className="w-16 h-[2px] bg-white mb-6 mx-auto md:mx-0"></div>

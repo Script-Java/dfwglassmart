@@ -140,28 +140,41 @@ const AutoCard = () => {
       {/* Second Block: Commercial Vehicles */}
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Text Left */}
-        <div>
-          <h2 className="text-3xl font-semibold mb-4 relative">
-            <span className="absolute left-0 -top-3 w-10 h-1 bg-primary"></span>
-            Truck & Commercial Vehicle Auto Glass Services
-          </h2>
-          <p className="text-base-content mb-4 text-sm">
-            <strong>DFW Glass Mart</strong> offers specialized auto glass solutions for trucks, fleet vehicles, 
-            and heavy-duty equipment. Whether you operate semi-trucks, delivery vans, or construction vehicles, 
-            we provide durable glass replacements to keep your fleet road-ready.
-          </p>
-          <ul className="list-disc list-inside text-sm text-base-content space-y-2">
-            <li>Windshield replacement for trucks & work vans</li>
-            <li>Custom glass solutions for heavy equipment</li>
-            <li>Fleet maintenance plans for auto glass services</li>
-          </ul>
-        </div>
+<div>
+  <h2 className="text-3xl font-semibold mb-4 relative">
+    <span className="absolute left-0 -top-3 w-10 h-1 bg-primary"></span>
+    Truck & Commercial Vehicle Auto Glass Services
+  </h2>
 
-        {/* Image Right */}
-        <div className="relative w-full h-64 md:h-96 rounded shadow overflow-hidden">
-  <Image src={img6} alt="Commercial Glass" fill className="object-cover" />
+  <p className="text-base-content mb-4 text-sm">
+    <strong>DFW Glass Mart</strong> delivers dependable and professional auto glass solutions tailored to trucks, commercial vans, and specialty vehicles. We understand the scale and structure of commercial fleets and bring precision and quality to every job.
+  </p>
+
+  <p className="text-base-content mb-4 text-sm">
+    Our technicians are trained to handle the larger glass panels and unique mounting needs of heavy-duty vehicles. Whether you operate delivery trucks, construction equipment, or service vans, we ensure every replacement is fitted securely and built to last.
+  </p>
+
+  <p className="text-base-content mb-4 text-sm">
+    We also support fleet managers and business owners with consistent scheduling, dependable turnaround times, and commercial-grade materials. Our mobile service ensures your vehicles stay operational with minimal disruption to your business workflow.
+  </p>
+
+  <p className="text-base-content mb-4 text-sm">
+    Businesses across Dallas rely on us for high-performance glass solutions that meet safety regulations and support long-term fleet reliability. From single commercial units to multi-vehicle contracts, our team is equipped to scale with your needs.
+  </p>
+
+  <ul className="list-disc list-inside text-sm text-base-content space-y-2">
+    <li>Windshield replacement for trucks & work vans</li>
+    <li>Custom glass solutions for heavy equipment</li>
+    <li>Fleet maintenance plans for auto glass services</li>
+    <li>Mobile service directly at your business or job site</li>
+    <li>Reliable service designed for commercial vehicle operators</li>
+  </ul>
 </div>
 
+        {/* Image Right */}
+        <div className="relative w-full h-[400px] md:h-[700px] rounded shadow overflow-hidden">
+          <Image src={img6} alt="Commercial Glass" fill className="object-cover" />
+        </div>
       </div>
     </section>
     </section>
