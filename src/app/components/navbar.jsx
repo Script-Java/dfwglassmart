@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import logo from "../assets/logo-black.svg";
+import logo from "../assets/logo-black.png";
 import Link from "next/link";
 import Image from "next/image";
 import { MdOutlineMenu, MdClose } from "react-icons/md";
