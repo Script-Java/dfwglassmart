@@ -6,7 +6,7 @@ export default function Areas() {
 {/* Left Column */}
 <div className="flex flex-col md:flex-row items-center md:items-center justify-center gap-4 w-full">
   <div className="text-center md:text-left">
-    <h2 className="text-3xl font-bold mb-4">Dear Valued Customers</h2>
+    <h2 className="text-3xl font-bold mb-4">Craftsmanship You Can Trust</h2>
     <div className="w-16 h-[2px] bg-white mb-6 mx-auto md:mx-0"></div>
     <p className="text-lg leading-relaxed">
       At DFW Glass Mart, our experienced professionals are dedicated to

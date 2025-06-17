@@ -21,8 +21,8 @@ export default function Home() {
       <Navbar />
       <Slider />
       <Card />
-      <TrustindexWidget />
       <Repair></Repair>
+      <TrustindexWidget />
       <Areas></Areas>
       <Footer />
     </div>

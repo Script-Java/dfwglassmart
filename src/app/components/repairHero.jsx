@@ -3,7 +3,7 @@ import bgImage from "../assets/img/tools/2.jpg"; // Replace with your actual ima
 
 export default function RepairVsReplace() {
   return (
-    <section className="relative w-full h-[900px] md:h-[500px] p-10 flex items-center justify-center text-white">
+    <section className="relative w-full h-[900px] md:h-[500px] my-10 p-10 flex items-center justify-center text-white">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
