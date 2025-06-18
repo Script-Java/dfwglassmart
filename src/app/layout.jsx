@@ -1,4 +1,5 @@
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   /* ---------- SEO core ---------- */
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="mytheme">
       <body>{children}</body>
+      <SpeedInsights />
     </html>
   );
 }
