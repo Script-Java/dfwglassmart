@@ -8,6 +8,7 @@ import img4 from "../assets/img/slider/4.jpg";
 import img5 from "../assets/img/slider/5.png";
 import img6 from "../assets/img/slider/6.jpg";
 import Link from "next/link";
+
 const slides = [img1, img2, img3, img4, img5, img6];
 
 const Slider = () => {
@@ -22,19 +23,23 @@ const Slider = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Background Images with fade */}
+      {/* Background Images with fixed height/width */}
       {slides.map((img, i) => (
-        <Image
+        <div
           key={i}
-          src={img}
-          alt={`Slide ${i + 1}`}
-          fill
-          sizes="100vw"
-          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          className={`absolute top-0 left-0 w-full h-full transition-opacity duration-1000 ${
             i === current ? "opacity-100 z-0" : "opacity-0 z-0"
           }`}
-          priority={i === 0}
-        />
+        >
+          <Image
+            src={img}
+            alt={`Slide ${i + 1}`}
+            fill
+            sizes="100vw"
+            priority={i === 0}
+            style={{ objectFit: "cover" }}
+          />
+        </div>
       ))}
 
       {/* Static Text Content */}
