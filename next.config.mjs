@@ -1,10 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-      images: {
-    domains: [
-      'glassgollc.com',
-      'res.cloudinary.com',
-      'images.pexels.com' // ✅ Added support for external Pexels thumbnails
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'glassgollc.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        pathname: '/**',
+      },
     ],
     formats: ['image/avif', 'image/webp'],
   },

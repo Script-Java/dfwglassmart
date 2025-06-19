@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-center gap-10 text-center text-sm">
         {/* Quick Links */}
         <div>
-          <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
+          <h2 className="text-lg font-semibold mb-2">Quick Links</h2>
           <ul className="flex flex-wrap justify-center gap-4">
             <li><Link href="/" className="hover:underline hover:text-primary">Home</Link></li>
             <li><Link href="/auto" className="hover:underline hover:text-primary">Auto Glass</Link></li>
@@ -24,7 +24,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-2">Contact</h4>
+          <h2 className="text-lg font-semibold mb-2">Contact</h2>
           <ul className="flex flex-wrap justify-center gap-6">
             <li className="flex items-center gap-2">
               <FaPhone />

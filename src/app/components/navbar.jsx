@@ -42,7 +42,11 @@ const Navbar = () => {
           </ul>
 
           {/* Hamburger Button */}
-          <button className="btn btn-ghost  hover:bg-primary hover:text-black z-20" onClick={toggleMenu}>
+          <button
+            className="btn btn-ghost hover:bg-primary hover:text-black z-20"
+            onClick={toggleMenu}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+          >
             {isOpen ? (
               <MdClose className="text-3xl text-white" />
             ) : (
@@ -55,7 +59,12 @@ const Navbar = () => {
       {/* Mobile Buttons Under Logo/Hamburger */}
       {isTinyScreen && (
         <div className="flex flex-col items-center gap-4 pb-4 px-4 lg:hidden">
-          <Link href="tel:+19729003117" className="btn btn-outline text-black w-full">(972) 900-3117</Link>
+          <Link
+            href="tel:+19729003117"
+            className="btn btn-outline text-black w-full"
+          >
+            (972) 900-3117
+          </Link>
           <Link href="/quote" className="btn btn-primary w-full">
             Online Quote
           </Link>
@@ -69,12 +78,16 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center p-4">
-          <button className="text-2xl btn btn-ghost text-white hover:bg-primary hover:text-black" onClick={toggleMenu}>
+          <button
+            className="text-2xl btn btn-ghost text-white hover:bg-primary hover:text-black"
+            onClick={toggleMenu}
+            aria-label="Close sidebar menu"
+          >
             <MdClose />
           </button>
         </div>
         <ul className="flex flex-col p-6 gap-4 text-white">
-          {[ 
+          {[
             { label: "Home", href: "/" },
             { label: "Auto Glass", href: "/auto" },
             { label: "Residential Glass", href: "/residential" },
@@ -82,7 +95,10 @@ const Navbar = () => {
             { label: "Blogs", href: "/blog" },
             { label: "Online Quote", href: "/quote" },
           ].map(({ label, href }) => (
-            <li key={label} className="btn btn-ghost text-left hover:bg-primary hover:text-white transition-colors">
+            <li
+              key={label}
+              className="btn btn-ghost text-left hover:bg-primary hover:text-white transition-colors"
+            >
               <Link href={href} onClick={toggleMenu}>
                 {label}
               </Link>
@@ -93,11 +109,14 @@ const Navbar = () => {
 
       {/* Backdrop */}
       {isOpen && (
-        <div className="fixed inset-0 opacity-20 bg-black z-30" onClick={toggleMenu} />
+        <div
+          className="fixed inset-0 opacity-20 bg-black z-30"
+          onClick={toggleMenu}
+          aria-label="Close menu backdrop"
+        />
       )}
     </nav>
   );
 };
 
 export default Navbar;
-              
