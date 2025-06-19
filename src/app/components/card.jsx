@@ -202,72 +202,78 @@ const Card = () => {
     </h2>
     <div className="w-16 h-1 bg-primary mx-auto mb-12"></div>
 
-{/* Card Grid */}
-<div className="grid md:grid-cols-3 gap-10 text-left items-stretch">
-  {/* Auto Glass Services */}
-  <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
-    <div className="flex justify-center -mt-12 mb-4">
-      <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
-        <FaCarSide className="text-3xl text-primary" />
+    {/* Card Grid */}
+    <div className="grid md:grid-cols-3 gap-10 text-left items-stretch">
+      {/* Auto Glass Services */}
+      <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
+        <div className="flex justify-center -mt-12 mb-4">
+          <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
+            <FaCarSide className="text-3xl text-primary" />
+          </div>
+        </div>
+        <h3 className="text-xl font-semibold text-black mb-2">Auto Glass Services</h3>
+        <p className="text-base-content text-sm mb-4 flex-grow">
+          At DFW Glass Mart, we understand that your vehicle’s glass plays a crucial role in both safety and comfort. That’s why we are committed to offering only the highest quality auto glass solutions, ensuring that each job is completed to the highest standards. Whether you're dealing with a small chip, a crack, or a completely shattered windshield, our team of certified technicians is ready to provide you with fast, efficient repairs and replacements.
+          <br /><br />
+          Our services extend beyond windshields to include side windows, rear windows, and mirrors, offering a comprehensive solution for any auto glass issue. We also specialize in mobile auto glass repair, bringing our services directly to you, whether you’re at home, at work, or on the go, for ultimate convenience.
+        </p>
+        <div className="mt-auto">
+          <Link href="/auto" className="btn btn-primary w-full" aria-label="Learn more about Auto Glass Services">
+            Learn More about Auto Glass
+          </Link>
+        </div>
+      </div>
+
+      {/* Residential Glass Services */}
+      <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
+        <div className="flex justify-center -mt-12 mb-4">
+          <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
+            <FaHome className="text-3xl text-primary" />
+          </div>
+        </div>
+        <h3 className="text-xl font-semibold mb-2 text-black">Residential Glass Services</h3>
+        <p className="text-base-content text-sm mb-4 flex-grow">
+          At DFW Glass Mart, we take pride in offering a wide range of residential glass services designed to meet the unique needs of homeowners. Our expert team specializes in providing high-quality glass installations, repairs, and custom solutions that elevate the style and performance of your living spaces. Whether you're renovating your bathroom with elegant glass shower doors, replacing old windows, or installing custom mirrors, we ensure every project is completed with precision and care.
+          <br /><br />
+          We understand that each home is different, which is why we offer tailored solutions to match your specific needs and preferences. From energy-efficient windows that help lower your utility bills to tempered glass for added safety, we offer a variety of options that enhance both the aesthetic appeal and functionality of your home.
+        </p>
+        <div className="mt-auto">
+          <Link href="/residential" className="btn btn-primary w-full" aria-label="Learn more about Residential Glass Services">
+            Learn More about Residential Glass
+          </Link>
+        </div>
+      </div>
+
+      {/* Tools and Tech */}
+      <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
+        <div className="flex justify-center -mt-12 mb-4">
+          <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
+            <FaTools className="text-3xl text-primary" />
+          </div>
+        </div>
+        <h3 className="text-xl font-semibold mb-2 text-black">Tools and Tech for Auto and Residential Glass Repair</h3>
+        <p className="text-base-content text-sm mb-4 flex-grow">
+          At DFW Glass Mart, we utilize state-of-the-art tools and technology to ensure your auto and residential glass repair and replacement needs are handled efficiently and with precision. Our advanced equipment and expert techniques allow us to get the job done right the first time, minimizing inconvenience and maximizing satisfaction.
+          <br /><br />
+          Whether it’s cutting glass to exact specifications, replacing windshields with OEM-grade materials, or installing custom residential glass solutions, our tools and tech guarantee exceptional results every time. Trust DFW Glass Mart for fast, reliable, and professional glass repair services backed by innovation and expertise!
+        </p>
+        <div className="mt-auto">
+          <Link href="/tools" className="btn btn-primary w-full" aria-label="Learn more about Tools and Technology used for Glass Repair">
+            Learn More about Tools & Tech
+          </Link>
+        </div>
       </div>
     </div>
-    <h3 className="text-xl font-semibold text-black mb-2">Auto Glass Services</h3>
-    <p className="text-base-content text-sm mb-4 flex-grow">
-      At DFW Glass Mart, we understand that your vehicle’s glass plays a crucial role in both safety and comfort. That’s why we are committed to offering only the highest quality auto glass solutions...
-    </p>
-    <div className="mt-auto">
-      <Link href="/auto" className="btn btn-primary w-full" aria-label="Learn more about Auto Glass Services">
-        Learn More about Auto Glass
-      </Link>
-    </div>
-  </div>
-
-  {/* Residential Glass Services */}
-  <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
-    <div className="flex justify-center -mt-12 mb-4">
-      <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
-        <FaHome className="text-3xl text-primary" />
-      </div>
-    </div>
-    <h3 className="text-xl font-semibold mb-2 text-black">Residential Glass Services</h3>
-    <p className="text-base-content text-sm mb-4 flex-grow">
-      At DFW Glass Mart, we take pride in offering a wide range of residential glass services designed to meet the unique needs of homeowners...
-    </p>
-    <div className="mt-auto">
-      <Link href="/residential" className="btn btn-primary w-full" aria-label="Learn more about Residential Glass Services">
-        Learn More about Residential Glass
-      </Link>
-    </div>
-  </div>
-
-  {/* Tools and Tech */}
-  <div className="flex flex-col border border-base-300 rounded-xl shadow-md p-6 relative">
-    <div className="flex justify-center -mt-12 mb-4">
-      <div className="bg-base-100 border border-primary rounded-full p-4 shadow">
-        <FaTools className="text-3xl text-primary" />
-      </div>
-    </div>
-    <h3 className="text-xl font-semibold mb-2 text-black">Tools and Tech for Auto and Residential Glass Repair</h3>
-    <p className="text-base-content text-sm mb-4 flex-grow">
-      At DFW Glass Mart, we utilize state-of-the-art tools and technology to ensure your auto and residential glass repair and replacement needs are handled efficiently...
-    </p>
-    <div className="mt-auto">
-      <Link href="/tools" className="btn btn-primary w-full" aria-label="Learn more about Tools and Technology used for Glass Repair">
-        Learn More about Tools & Tech
-      </Link>
-    </div>
-  </div>
-</div>
-
 
     {/* Bottom CTA Button */}
     <div className="mt-12">
-      <Link href="/quote" className="btn bg-primary p-8 md:p-4 text-white hover:bg-blue-700">
+      <Link href="/blog" className="btn bg-primary p-8 md:p-4 text-white hover:bg-blue-700">
         HOW TO CARE FOR A NEWLY REPLACED WINDSHIELD
       </Link>
     </div>
   </div>
 </section>
+
 
 <section className="bg-base-100 py-10 px-6">
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
