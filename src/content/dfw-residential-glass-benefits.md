@@ -4,7 +4,7 @@ id: "dfw-residential-glass-benefits"
 title: "Enhance Your Home with Residential Glass Solutions from DFW Glass Mart"
 description: "Explore the benefits of professional residential glass services from DFW Glass Mart, including energy savings, increased property value, and stunning home design upgrades."
 date: "2025-06-17"
-image: "https://images.pexels.com/photos/271800/pexels-photo-271800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Enhance Your Home with Residential Glass Solutions from DFW Glass Mart
@@ -23,7 +23,7 @@ Upgrading your residential windows helps:
 
 > **Efficiency Tip:** Double-pane and Low-E glass can cut energy costs by up to 30%.
 
-![Energy Efficiency](https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Energy Efficiency](https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg)
 
 ---
 
@@ -37,7 +37,7 @@ Outdated or damaged windows drag down your home’s appearance. We offer:
 
 > **Design Insight:** First impressions matter—upgraded glass instantly modernizes your home.
 
-![Curb Appeal](https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Curb Appeal](https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg)
 
 ---
 
@@ -51,7 +51,7 @@ Quality residential glass adds measurable value:
 
 > **Value Note:** Glass upgrades are one of the top improvements for resale.
 
-![Home Value](https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Home Value](https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg)
 
 ---
 
@@ -65,7 +65,6 @@ Letting in more daylight can:
 
 > **Light Tip:** Floor-to-ceiling glass adds openness and modern luxury.
 
-![Natural Light](https://images.pexels.com/photos/220889/pexels-photo-220889.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -79,7 +78,6 @@ We design and install a wide range of glass elements:
 
 > **Customization Tip:** Unique glass installations help set your home apart.
 
-![Custom Glass Features](https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 

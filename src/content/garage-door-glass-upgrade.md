@@ -4,7 +4,7 @@ id: "garage-door-glass-upgrade"
 title: "Upgrade Your Curb Appeal with Garage Door Glass Inserts"
 description: "Learn how installing glass inserts in your garage door can enhance your home's exterior design, boost natural light, and increase property value—with expert service from DFW Glass Mart."
 date: "2025-06-17"
-image: "https://images.pexels.com/photos/105006/pexels-photo-105006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+image: "https://images.pexels.com/photos/206172/pexels-photo-206172.jpeg"
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Upgrade Your Curb Appeal with Garage Door Glass Inserts
@@ -23,7 +23,7 @@ Garage doors take up major visual space. Adding glass inserts:
 
 > **Design Tip:** Frosted or tinted glass offers privacy while still improving curb appeal.
 
-![Curb Appeal Upgrade](https://images.pexels.com/photos/105006/pexels-photo-105006.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Curb Appeal Upgrade](https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg)
 
 ---
 
@@ -37,7 +37,6 @@ Most garages are dark and underused. Glass windows:
 
 > **Lighting Insight:** Natural light transforms your garage from storage to usable living space.
 
-![Garage Light](https://images.pexels.com/photos/3990354/pexels-photo-3990354.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -51,7 +50,6 @@ Glass inserts help bridge home design with vehicle display:
 
 > **Auto Appeal:** Homes with sports or collector cars benefit from stylish, well-lit garages.
 
-![Residential Garage Car](https://images.pexels.com/photos/97075/pexels-photo-97075.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -65,7 +63,7 @@ DFW Glass Mart provides:
 
 > **Customization Tip:** Choose a design that mirrors your home's windows for a cohesive look.
 
-![Garage Glass Custom](https://images.pexels.com/photos/221502/pexels-photo-221502.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Garage Glass Custom](https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg)
 
 ---
 
@@ -79,7 +77,6 @@ Garage door upgrades are one of the highest-ROI improvements:
 
 > **ROI Fact:** Garage door replacements have a 90%+ return on investment, especially with glass inserts.
 
-![Value Boost](https://images.pexels.com/photos/37347/garage-door-house-modern-architecture.jpg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 

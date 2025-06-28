@@ -23,7 +23,7 @@ Cracked or improperly installed glass can compromise your vehicle's structural i
 
 > **Safety Tip:** Your windshield supports up to 60% of the vehicle’s roof during a rollover.
 
-![Auto Glass Safety](https://images.pexels.com/photos/1007417/pexels-photo-1007417.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Auto Glass Safety](https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg)
 
 ---
 
@@ -37,7 +37,6 @@ Driving with a cracked or hazy windshield puts you at risk. Our services guarant
 
 > **Visibility Insight:** Replacing damaged glass can significantly reduce accident risks.
 
-![Clear Visibility](https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -51,7 +50,6 @@ We understand your time is valuable. That’s why we offer:
 
 > **Convenience Note:** Most replacements are completed in under 90 minutes.
 
-![Convenient Auto Glass Service](https://images.pexels.com/photos/97075/pexels-photo-97075.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
@@ -65,7 +63,7 @@ We believe in clear, honest pricing. With DFW Glass Mart, you get:
 
 > **Budget Tip:** Early repair of chips prevents full windshield replacement, saving you money.
 
-![Affordable Auto Glass](https://images.pexels.com/photos/193991/pexels-photo-193991.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
+![Affordable Auto Glass](https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg)
 
 ---
 
@@ -79,7 +77,6 @@ We’re proud to serve the DFW community with integrity and care:
 
 > **Community Driven:** Supporting local businesses means better service and faster turnaround.
 
-![Trusted Local Experts](https://images.pexels.com/photos/3859987/pexels-photo-3859987.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)
 
 ---
 
