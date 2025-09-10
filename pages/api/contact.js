@@ -38,7 +38,7 @@ export default async function handler(req, res) {
 
     const mailOptions = {
       // Zoho requires the "from" to be the authenticated mailbox (or its approved alias)
-      from: `"DFW Glass Mart" <${process.env.SMTP_USER}>`,
+      from: `"DFWGlassMart" <${process.env.SMTP_USER}>`,
       to: process.env.SMTP_USER,
       replyTo: `"${form.firstName} ${form.lastName}" <${form.email}>`,
       subject: `New Quote Request from ${form.firstName} ${form.lastName}`,
