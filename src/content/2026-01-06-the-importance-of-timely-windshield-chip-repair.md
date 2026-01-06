@@ -2,6 +2,7 @@
 title: "The Importance of Timely Windshield Chip Repair"
 date: "2026-01-06"
 description: "This blog post highlights the importance of timely windshield chip repair, discussing the safety hazards, cost savings, and convenience of repairing windshield chips. It also explains the process of windshield chip repair and the benefits of professional repair services, such as quality guarantee, insurance coverage, and long-term durability."
+image: "/window.svg"
 ---
 
 
@@ -24,4 +25,5 @@ description: "This blog post highlights the importance of timely windshield chip
       ## Conclusion
       Timely windshield chip repair is essential for safety, cost savings, and convenience. At DFW Glass Mart, we provide high-quality windshield chip repair services that can help vehicle owners avoid the risks associated with driving with a damaged windshield. If you have a chipped windshield, don't hesitate to contact us for a quick and effective repair solution.
    
+
 
